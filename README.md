@@ -120,8 +120,7 @@ SkyAgent uses basicagent’s native sessions:
 - SkyAgent preserves and restores basicagent’s `last-session.txt`, so your
   terminal `basicagent --continue` keeps pointing where it did before.
 
-There is no separate SkyAgent history file and no 5/10 message limit. Basicagent
-owns the context policy.
+There is no separate SkyAgent history file. Basicagent still owns the context policy.
 
 ## Audio transport
 
