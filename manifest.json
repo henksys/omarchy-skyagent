@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "io.github.henksys.skyagent",
+  "name": "SkyAgent",
+  "version": "0.1.0",
+  "releaseDate": "2026-10-19",
+  "author": "Henk",
+  "license": "MIT",
+  "description": "Voice chat with basicagent, spoken by Kokoro TTS.",
+  "kinds": ["bar-widget"],
+  "entryPoints": {
+    "barWidget": "BarWidget.qml"
+  },
+  "barWidget": {
+    "displayName": "SkyAgent",
+    "description": "Hold F10 to ask Sky; answers are spoken with Kokoro.",
+    "category": "AI",
+    "allowMultiple": false,
+    "defaultSection": "right"
+  }
+}
