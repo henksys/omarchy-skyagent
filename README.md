@@ -4,6 +4,7 @@ A small Omarchy/Quickshell bar plugin that lets you talk to
 [`basicagent`](https://github.com/henksys/basicagent) with your voice and
 hears the answer spoken by the local Kokoro TTS API.
 
+- The interface normally stays out of sight, you just command and get the answer/result.
 - Hold **F10** to talk; release to transcribe, ask, and speak.
 - A scrollable conversation panel, opened by clicking the bar icon.
 - Voices come from Kokoro; the default is `af_sky` (“Sky”).
